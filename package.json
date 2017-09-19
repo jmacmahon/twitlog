@@ -1,0 +1,37 @@
+{
+  "name": "twitlog",
+  "version": "1.0.0",
+  "description": "Log Tweets into MongoDB using Twitter streaming",
+  "main": "src/index.js",
+  "dependencies": {
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "lodash": "^4.17.4",
+    "mongodb": "^2.2.31",
+    "twitter": "^1.7.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.7.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmacmahon/twitlog.git"
+  },
+  "keywords": [
+    "tweets",
+    "twitter",
+    "mongodb",
+    "log",
+    "search",
+    "filter"
+  ],
+  "author": "Joe MacMahon <joe@macmahon.eu>",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/jmacmahon/twitlog/issues"
+  },
+  "homepage": "https://github.com/jmacmahon/twitlog#readme"
+}
