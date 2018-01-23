@@ -1,13 +1,7 @@
 const config = require('./config');
 const twitterClient = require('./twitter');
 const mongoConnectionP = require('./db');
-const _ = require('lodash');
-
-const isTweet = _.conforms({
-  user: _.isObject,
-  id_str: _.isString,
-  text: _.isString,
-});
+const { isTweet } = require('./util');
 
 const tweetStream = twitterClient.stream(
   'statuses/filter',
